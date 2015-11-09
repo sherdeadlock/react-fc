@@ -105,10 +105,6 @@ function layout(node) {
 
     var position = computePosition(node);
 
-// FIXME innerDimensions
-console.log(dimensions, position);
-dimensions = {width: 800, height:400};
-
     // create the layout nodes
     var layoutNodes = createNodes(node);
 
